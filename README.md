@@ -1,5 +1,5 @@
 ## Veja nossa defesa ##
-[Defesa do Projeto](https://github.com/manzettidenis/health4u/blob/master/Health4u_Completo.pdf)
+[PDF - defesa do projeto](https://github.com/manzettidenis/health4u/blob/master/Health4u_Completo.pdf)
 
 ## PROBLEMA: ##
  Ao estudarmos o Sistema Público de Saúde no Brasil, percebemos que o governo já tem apontado limitações financeiras de manter o sistema ativo. Com a crise econômica instaurada, o número de brasileiros que necessitam do sistema público só tem aumentado e esse cenário acaba representando um futuro obscuro para garantir o direito básico a saúde de todos os brasileiros. Fomos entender, qual era a principal reclamação no atendimento e aonde essa questão financeira tem mais prejudicado no atendimento atual e descobrimos que a falta de profissionais de saúde e de atendimento especializado é a principal queixa e demora no atendimento.
