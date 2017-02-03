@@ -1,0 +1,43 @@
+<ion-view view-title="Home Voluntário">
+    <ion-content class="home-voluntario" ng-class="{expanded:$scope.isExpanded}">
+        <div class="hero slide-up" style="background-image: url('img/profile-bg.jpg');">
+            <div class="content">
+                <div class="avatar" style="background-image: url('img/daenerys.jpg');"></div>
+                <h3><a class="light">Maria Script</a></h3>
+                <h4>Encaminhado para: Psicologo</h4>
+            </div>
+        </div>
+        <div class="tabs tabs-dark tabs-icon-top static">
+            <a ui-sref="app.activity" class="tab-item">
+                <i class="icon ion-arrow-graph-up-right"></i> Encaminhamentos
+            </a>
+            <a ui-sref="app.friends" class="tab-item">
+                <i class="icon ion-android-people"></i> Pacientes
+            </a>
+            <a ui-sref="app.gallery" class="tab-item">
+                <i class="icon ion-images"></i> Fotos
+            </a>
+        </div>
+        <h4 class="content padding double-padding-x">Proximas Consultas</h4>
+        <div class="list animate-fade-slide-in-right">
+            <a ui-sref="app.friends" class="item item-avatar item-icon-right">
+                <img src="img/sansa.jpg">
+                <h2>Maria Incognita</h2>
+                <p>Agendada para: 27/03/2017 - 16:00</p>
+                <i class="icon ion-chatbubble muted"></i>
+            </a>
+            <a ui-sref="app.friends" class="item item-avatar item-icon-right">
+                <img src="img/jon-snow.jpg">
+                <h2>José Script</h2>
+                <p>Agendada para: 27/05/2017 - 17:00</p>
+                <i class="icon ion-chatbubble muted"></i>
+            </a>
+            <a ui-sref="app.friends" class="item item-avatar item-icon-right">
+                <img src="img/tyrion.jpg">
+                <h2>Marcio Compilado</h2>
+                <p>Agendada para: 01/07/2017 - 12:00</p>
+                <i class="icon ion-chatbubble muted"></i>
+            </a>
+        </div>
+    </ion-content>
+</ion-view>
