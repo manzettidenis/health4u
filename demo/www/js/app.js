@@ -141,16 +141,15 @@ angular.module('starter', ['ionic', 'starter.controllers', 'ionic-material', 'io
         }
     })
 
-
     .state('app.paciente', {
         url: '/paciente',
         views: {
             'menuContent': {
                 templateUrl: 'templates/paciente/paciente.html',
-                controller: 'BuscarPacienteCtrl'
+                controller: 'PacienteCtrl'
             },
             'fabContent': {
-                template: '<button id="fab-profile" class="button button-fab button-fab-bottom-right button-energized-900"><i class="icon ion-plus"></i></button>',
+                template: '<button id="fab-profile" class="button button-ab button-fab-bottom-right button-energized-900"><i class="icon ion-plus"></i></button>',
                 controller: function ($timeout) {
                     /*$timeout(function () {
                         document.getElementById('fab-profile').classList.toggle('on');
@@ -159,7 +158,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'ionic-material', 'io
             }
         }
     })
-
 
     .state('app.homeVoluntario', {
         url: '/home-voluntario',

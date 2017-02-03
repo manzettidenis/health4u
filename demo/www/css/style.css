@@ -110,3 +110,9 @@ p {
 .header-assertive-900.activated, .header-assertive-900:active, .header-assertive-900:hover {
   background: #0086cd;
 }
+.logohealth {
+  width: 250px;
+  margin: 30px auto 0;
+  height: 46px;
+  background: url(../img/logo.png) 0 0 /cover;
+}

@@ -95,7 +95,7 @@ angular.module('starter.controllers', [])
     ionicMaterialInk.displayEffect();
 })
 
-.controller('BuscarPacienteCtrl', function($scope, $timeout, $stateParams, ionicMaterialInk) {
+.controller('PacienteCtrl', function($scope, $timeout, $stateParams, ionicMaterialInk) {
     $scope.$parent.clearFabs();
     $timeout(function() {
         $scope.$parent.hideHeader();
