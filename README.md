@@ -23,4 +23,4 @@
 
   Carlos Vecchi - Negócios
 
-  Raafle Quirino - Backend Developer
+  Rafael Castro  - Devops
