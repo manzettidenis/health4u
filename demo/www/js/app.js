@@ -55,6 +55,24 @@ angular.module('starter', ['ionic', 'starter.controllers', 'ionic-material', 'io
         }
     })
 
+    .state('app.detalhes', {
+        url: '/detalhes',
+        views: {
+            'menuContent': {
+                templateUrl: 'templates/paciente/detalhes.html',
+                controller: 'DetalhesCtrl'
+            },
+            'fabContent': {
+                template: '',
+                controller: function ($timeout) {
+                    $timeout(function () {
+                        document.getElementById('fab-activity').classList.toggle('on');
+                    }, 200);
+                }
+            }
+        }
+    })
+
     .state('app.encaminhamentos', {
         url: '/encaminhamentos',
         views: {
@@ -141,15 +159,17 @@ angular.module('starter', ['ionic', 'starter.controllers', 'ionic-material', 'io
         }
     })
 
-    .state('app.paciente', {
-        url: '/paciente',
+
+
+    .state('app.homePaciente', {
+        url: '/home-paciente',
         views: {
             'menuContent': {
-                templateUrl: 'templates/paciente/paciente.html',
-                controller: 'PacienteCtrl'
+                templateUrl: 'templates/paciente/home-paciente.html',
+                controller: 'HomeVoluntarioCtrl'
             },
             'fabContent': {
-                template: '<button id="fab-profile" class="button button-ab button-fab-bottom-right button-energized-900"><i class="icon ion-plus"></i></button>',
+                template: '<button id="fab-profile" class="button button-fab button-fab-bottom-right button-energized-900"><i class="icon ion-plus"></i></button>',
                 controller: function ($timeout) {
                     /*$timeout(function () {
                         document.getElementById('fab-profile').classList.toggle('on');
@@ -158,6 +178,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'ionic-material', 'io
             }
         }
     })
+
 
     .state('app.homeVoluntario', {
         url: '/home-voluntario',

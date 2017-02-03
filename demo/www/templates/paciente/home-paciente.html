@@ -1,0 +1,24 @@
+<ion-view view-title="Home Paciente">
+    <ion-content class="home-voluntario" ng-class="{expanded:$scope.isExpanded}">
+        <div class="hero slide-up" style="background-image: url('img/profile-bg.jpg');">
+            <div class="content">
+                <div class="avatar" style="background-image: url('img/paciente.jpg');"></div>
+                <h3><a class="light">Mini Mim</a></h3>
+                <h4>Urgência: <b>Normal</b></h4>
+            </div>
+        </div>
+        <div class="tabs tabs-dark tabs-icon-top static">
+
+
+        </div>
+        <h4 class="content padding double-padding-x">Próximas Consultas</h4>
+        <div class="list animate-fade-slide-in-right">
+          <a ui-sref="app.detalhes" class="item item-avatar item-icon-right">
+              <img src="img/sansa.jpg">
+              <h2>Dr. Alecio PontoEVirgula </h2>
+              <p>Agendada para: 27/03/2017 - 16:00</p>
+              <i class="icon ion-information-circled muted"></i>
+          </a>
+        </div>
+    </ion-content>
+</ion-view>
