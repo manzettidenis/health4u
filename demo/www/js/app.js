@@ -55,6 +55,24 @@ angular.module('starter', ['ionic', 'starter.controllers', 'ionic-material', 'io
         }
     })
 
+    .state('app.encaminhamentos', {
+        url: '/encaminhamentos',
+        views: {
+            'menuContent': {
+                templateUrl: 'templates/voluntario/encaminhamentos.html',
+                controller: 'EncaminhamentosCtrl'
+            },
+            'fabContent': {
+                template: '',
+                controller: function ($timeout) {
+                    $timeout(function () {
+                        document.getElementById('fab-activity').classList.toggle('on');
+                    }, 200);
+                }
+            }
+        }
+    })
+
     .state('app.friends', {
         url: '/friends',
         views: {
@@ -63,7 +81,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'ionic-material', 'io
                 controller: 'FriendsCtrl'
             },
             'fabContent': {
-                template: '<button id="fab-friends" class="button button-fab button-fab-top-left expanded button-energized-900 spin"><i class="icon ion-chatbubbles"></i></button>',
+                template: '',
                 controller: function ($timeout) {
                     $timeout(function () {
                         document.getElementById('fab-friends').classList.toggle('on');
