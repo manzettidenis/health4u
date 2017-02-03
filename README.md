@@ -9,7 +9,7 @@
 
 
 
-###BENEFÍCIOS AOS VOLUNTÁRIOS:###
+##BENEFÍCIOS AOS VOLUNTÁRIOS:##
  Para garantir que haja cadastro de médicos voluntários forneceremos um clube de descontos em cursos e insumos médicos para todos os profissionais ativos na plataforma e que mantenham o atendimento voluntário. O programa é uma espécie de milhagens de descontos na participação de cursos de instituições de ensino, na compra de material didático ou até na compra dos produtos necessários para o atendimento médico como gazes, bandagens, algodão e afins que serão fornecidos por instituições privadas parceiras.
 
 ###Equipe:###
