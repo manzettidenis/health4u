@@ -24,7 +24,5 @@
 
   Caio César -  Full-stack Developer  
 
-  Carlos Vecchi - Negócios
-  
-  Renata Lino - Marketing
+  Renata Lino - Negócios / Marketing
 
